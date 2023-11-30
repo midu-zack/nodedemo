@@ -34,7 +34,7 @@ fs.readFile('test.text','utf-8',(err,data)=>{
         console.log(data1);
         fs.readFile('test.text','utf-8',(err2,data2)=>{
             console.log(data2);
-                fs.writeFile('test.text',   f)
+                fs.writeFile('test.text')
         })
     })
 })
