@@ -1,6 +1,7 @@
 var fs=require('fs')
 
 // readfile
+
 // fs.readFile('./test.text','utf-8', (err,data)=>{
 //     if(err){
 //         console.error(err);
@@ -12,6 +13,7 @@ var fs=require('fs')
 
 
 // creatfile
+
 // fs.writeFile('new.text',"hey zack how are you ",(err)=>{
 //     if(err){
 //         console.error(err);
@@ -24,6 +26,7 @@ var fs=require('fs')
 
 
 // apppentfile
+
 // fs.appendFile('new.text',"hey zack how are you \n ",(err)=>{
 //     if(err){
 //         console.error(err);
@@ -35,6 +38,7 @@ var fs=require('fs')
 
 
 // renamefile
+
 // fs.rename("./sample.text","./zack.text",(err)=>{
 // if(err){
 //     console.log(err);
@@ -45,7 +49,8 @@ var fs=require('fs')
 
 
 // deletefiles
-fs.unlink('./delete.test',(err)=>{
+
+fs.unlink('./lamiya.js',(err)=>{
     if(err){
         console.log(err);
     }

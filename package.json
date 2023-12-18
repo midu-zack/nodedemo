@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cli-color": "^2.0.3"
+    "cli-color": "^2.0.3",
+    "express": "^4.18.2"
   },
   "dev-dependencies": {
     "nodemon": "^3.0.1"
